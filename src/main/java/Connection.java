@@ -34,7 +34,7 @@ public class Connection {
             e.printStackTrace();
         } finally {
             if (connection != null) {
-                connection.disconnect();  // Bağlantıyı kapat
+                connection.disconnect();  // Bağlantıyı kapatsss
             }
         }
     }
