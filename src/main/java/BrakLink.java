@@ -29,7 +29,7 @@ public class BrakLink {
         while(it.hasNext()){
             url=it.next().getAttribute("href");
             if (url==null || url.isEmpty()){
-                System.out.println("Bu bağlantı boş geçildi.");
+                System.out.println("Bu bağlantı boş geçildin.");
                 continue;
 
 
