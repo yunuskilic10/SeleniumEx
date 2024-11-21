@@ -45,7 +45,7 @@ public class BrakLink {
                 huc.connect();
                 resCode= huc.getResponseCode();
                 if (resCode>=400){
-                    System.out.println(url+" __kırık link");
+                    System.out.println(url+" -kırık link");
                 }else {
                     System.out.println(url+" geçerli link");
                 }
